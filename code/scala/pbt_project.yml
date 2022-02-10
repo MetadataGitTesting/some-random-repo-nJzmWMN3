@@ -23,6 +23,16 @@ workflows:
     datasets:
       inputs: []
       outputs: []
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: danette.bednar@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-10 07:33:07'
+    datasets:
+      inputs: []
+      outputs: []
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: null
@@ -74,4 +84,9 @@ workflows:
       inputs: []
       outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Gerri_Wilkinson:
+    name: Gerri_Wilkinson
+    description: Really solid info
+    createdAt: '2022-02-10 07:33:08'
+    author: danette.bednar@yahoo.com
